@@ -14,7 +14,7 @@ Discontinuous Constituent Parsing as Sequence Labeling - EMNLP 2020 repository
 
 # Installation
 
-- Create a virtual environment: `virtualenv --p python3.6 $HOME/env/disco2labels
+- Create a virtual environment: `virtualenv --python python3.6 $HOME/env/disco2labels
 `
 
 - Activate the virtual enviroment: `source $HOME/env/disco2labels/bin/activate`
@@ -23,7 +23,7 @@ Discontinuous Constituent Parsing as Sequence Labeling - EMNLP 2020 repository
 
 - To install discodop follow [these instructions](https://github.com/andreasvc/disco-dop) (used to evaluate the models and optionally for model selection).
 
-- To install external resources used in this paper that you might need (e.g. embeddings, PoS taggers or templates for training configurations) execute `./download.sh`. 
+- To install the resources used in this paper (e.g. embeddings, PoS taggers or templates for training configurations) execute `sh download.sh`. 
 
 - We released as well a few pretrained parsing models, check [the pretrained parsing models section](#pretrained-parsing-models).
 
@@ -87,9 +87,9 @@ cd disco2labels
 python NCRF/main.py --config resources/ncrfpp_confs/train.negra.pos-pointer.bilstm.config
 ```
 
-**NOTE**: To correctly train a model, please check the template at  `resources/ncrfpp_confs/train.negra.pos-pointer.bilstm.config` and verify whether you neeed to adapt the paths to the location of the data and resources in your computer.
+**NOTE**: To correctly train a model, please check the template at  `resources/ncrfpp_confs/train.negra.pos-pointer.bilstm.config` and verify whether you need to adapt the paths to the location of the data and resources in your computer.
 
-## BERT/DistillBERT
+## BERT/DistilBERT
 
 We adapted a script released initially by [huggingface🤗](https://huggingface.co/) to train BERT-based models for discontinuous constituent parsing as sequence labeling.
 
