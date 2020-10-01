@@ -49,6 +49,7 @@ python encode.py \
 --check_decode
 ```
 
+The output will be three files to be stored at the previously created directory `data/negra_sl/pos-pointer/`: `train.tsv`, `dev.tsv` and `test.tsv`. They are composed of three columns: word, postags and labels. This format will be used to train and run the models too.
 
 The options to encode a treebank (`--disco_encoder`) are `abs-idx|rel-idx|lehmer|lehmer-inverse|pos-pointer|pos-pointer-reduced`. Check the paper for details on the specifics for each encoding.
 
