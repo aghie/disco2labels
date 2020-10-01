@@ -103,4 +103,6 @@ venv.bak/
 data/
 bert_models/
 ncrfpp_bilstm_models/
-resources/
+resources/sskip.100.vectors
+resources/sskip.de
+resources/ncrfpp_postaggers
