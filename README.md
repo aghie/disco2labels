@@ -290,7 +290,7 @@ To download the NEGRA, TIGER and DPTB BERT models trained with the `pos-pointer`
 
 # References
 
-David Vilares and Carlos Gómez-Rodríguez, Discontinuous Constituent Parsing as Sequence Labeling, to appear at EMNLP-2020. Punta Cana, Dominican Republic (online due to COVID-19).
+David Vilares and Carlos Gómez-Rodríguez, [Discontinuous Constituent Parsing as Sequence Labeling](https://arxiv.org/abs/2010.00633), to appear at EMNLP-2020. Punta Cana, Dominican Republic (online due to COVID-19).
 
 # Acknowledgments
 
